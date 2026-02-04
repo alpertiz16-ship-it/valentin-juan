@@ -12,7 +12,6 @@ yes.addEventListener("click", () => {
 
   if (scale >= 2.1) {
     document.querySelector(".buttons").classList.add("hidden");
-    question.textContent = "Sabia elección 😌";
     result.classList.remove("hidden");
     confettiBoom();
   }
